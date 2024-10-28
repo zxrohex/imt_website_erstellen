@@ -34,10 +34,16 @@ h1, h2, h3, h4, h5, h6, li {
     font-family: 'Arial';
 }
 
-main h3 {
-    border-bottom: 1px solid lightgray;
+main {
+    h3 {
+        border-bottom: 1px solid lightgray;
 
-    padding-bottom: 10px;
+        padding-bottom: 10px;
+
+        &::first-letter {
+            font-size: 44px;
+        }
+    }
 }
 
 
@@ -46,7 +52,29 @@ div.section-container {
 
     width: 100%;
 
-    border: 2px solid red;
+    padding: 2.5px 15px;
+
+    //border: 2px solid red;
+
+    margin: 15px 0px;
+
+    &:first-of-type {
+        margin-top: 0px;
+    }
+
+    &:last-of-type {
+        margin-bottom: 0px;
+    }
+
+    &:nth-child(odd) {
+        background-color: #f0f0f0;
+    }
+
+    &.open {
+        div.section-content {
+            display: block;
+        }
+    }
 
     div.section-content {
         position: relative;
