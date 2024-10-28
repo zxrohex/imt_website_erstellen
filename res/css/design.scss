@@ -39,3 +39,21 @@ main h3 {
 
     padding-bottom: 10px;
 }
+
+
+div.section-container {
+    position: relative;
+
+    width: 100%;
+
+    border: 2px solid red;
+
+    div.section-content {
+        position: relative;
+
+        width: 100%;
+        height: auto;
+
+        display: none;
+    }
+}
