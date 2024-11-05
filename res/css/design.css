@@ -42,8 +42,14 @@ main h3::first-letter {
 div.section-container {
   position: relative;
   width: 100%;
+  max-height: 105px;
   padding: 2.5px 15px;
   margin: 15px 0px;
+  overflow: hidden;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 div.section-container:first-of-type {
   margin-top: 0px;
@@ -54,12 +60,13 @@ div.section-container:last-of-type {
 div.section-container:nth-child(odd) {
   background-color: #f0f0f0;
 }
-div.section-container.open div.section-content {
-  display: block;
+div.section-container.open {
+  max-height: 1000px;
 }
 div.section-container div.section-content {
   position: relative;
   width: 100%;
   height: auto;
-  display: none;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
