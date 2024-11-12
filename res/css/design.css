@@ -49,6 +49,14 @@ header {
   padding: 35px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+header.scroll {
+  -webkit-transform-origin: top center;
+          transform-origin: top center;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
 }
 header h3.title-start {
   font-size: 20px;

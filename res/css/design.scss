@@ -51,6 +51,13 @@ header {
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 
+    transition-duration: 1s;
+
+    &.scroll {
+        transform-origin: top center;
+        transform: scale(0.7);
+    }
+
     h3.title-start {
         font-size: 20px;
 
