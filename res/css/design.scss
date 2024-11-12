@@ -44,6 +44,7 @@ header {
     height: auto;
 
     background-image: radial-gradient(circle at 0% 200%, #E01A4F, #F15946, #F9C22E, #53B3CB 150%);
+
     color: white;
 
     padding: 35px;
@@ -52,9 +53,12 @@ header {
     border-bottom-right-radius: 50px;
 
     transition-duration: 1s;
+    transform-origin: top center;
+
+    z-index: 100;
 
     &.scroll {
-        transform-origin: top center;
+
         transform: scale(0.7);
     }
 
@@ -175,7 +179,10 @@ div.section-container {
     div.section-content {
         position: relative;
 
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
 
         width: 100%;
         height: 100%;
@@ -185,5 +192,11 @@ div.section-container {
         opacity: 1;
 
         transition-duration: 1s;
+
+        p {
+            font-size: 20px;
+
+            width: 75%;
+        }
     }
 }

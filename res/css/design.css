@@ -51,10 +51,11 @@ header {
   border-bottom-right-radius: 50px;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
-}
-header.scroll {
   -webkit-transform-origin: top center;
           transform-origin: top center;
+  z-index: 100;
+}
+header.scroll {
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
 }
@@ -183,11 +184,27 @@ div.section-container div.section-showcase h3.section-title {
 }
 div.section-container div.section-content {
   position: relative;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
   height: 100%;
   overflow: hidden;
   opacity: 1;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
+}
+div.section-container div.section-content p {
+  font-size: 20px;
+  width: 75%;
 }
