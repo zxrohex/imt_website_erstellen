@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534a39b6-04d5-43f2-8838-c7d757910758" name="Changes" comment="Nochmal von Grund auf starten">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/css/design.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/css/design.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/srcs/Vorgehen Website erstellen.txt" afterDir="false" />
+    <list default="true" id="534a39b6-04d5-43f2-8838-c7d757910758" name="Changes" comment="Grundaufbau erstellt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/res/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +94,7 @@
       <updated>1731418486272</updated>
       <workItem from="1731418486922" duration="4970000" />
       <workItem from="1731424903329" duration="5461000" />
-      <workItem from="1731434544541" duration="3230000" />
+      <workItem from="1731434544541" duration="5527000" />
     </task>
     <task id="LOCAL-00001" summary="Re-design gestartet">
       <option name="closed" value="true" />
@@ -133,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731434717035</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Grundaufbau erstellt">
+      <option name="closed" value="true" />
+      <created>1731437845026</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731437845026</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +171,7 @@
     <MESSAGE value="Mehr Re-work" />
     <MESSAGE value="Anpassungen" />
     <MESSAGE value="Nochmal von Grund auf starten" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nochmal von Grund auf starten" />
+    <MESSAGE value="Grundaufbau erstellt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grundaufbau erstellt" />
   </component>
 </project>
