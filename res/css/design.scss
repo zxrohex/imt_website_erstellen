@@ -1,0 +1,197 @@
+@mixin flexbox() {
+	$modes: "row", "column";
+
+	display: flex;
+
+	@each $mode in $modes {
+		@if $mode == 'row' {
+			&.row {
+				flex-direction: row;
+			}
+		} @else if $mode == 'column' {
+			&.column {
+				flex-direction: column;
+			}
+		}
+
+
+		&.#{$mode}.x-left {
+			@if $mode == 'row' {
+				justify-content: flex-start;
+			} @else if $mode == 'column' {
+				align-items: flex-start;
+			}
+		}
+
+		&.#{$mode}.x-center {
+			@if $mode == 'row' {
+				justify-content: center;
+			} @else if $mode == 'column' {
+				align-items: center;
+			}
+		}
+
+		&.#{$mode}.x-right {
+			@if $mode == 'row' {
+				justify-content: flex-end;
+			} @else if $mode == 'column' {
+				align-items: flex-end;
+			}
+		}
+
+		&.#{$mode}.y-top {
+			@if $mode == 'row' {
+				align-items: flex-start;
+			} @else if $mode == 'column' {
+				justify-content: flex-start;
+			}
+		}
+
+		&.#{$mode}.y-center {
+			@if $mode == 'row' {
+				align-items: center;
+			} @else if $mode == 'column' {
+				justify-content: center;
+			}
+		}
+
+		&.#{$mode}.y-bottom {
+			@if $mode == 'row' {
+				align-items: flex-end;
+			} @else if $mode == 'column' {
+				justify-content: flex-end;
+			}
+		}
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+}
+
+
+
+html, body, main {
+	position: relative;
+
+	width: 100%;
+	height: 100%;
+
+	margin: 0px;
+}
+
+body {
+	padding: 0px 50px;
+}
+
+div.main-container {
+	position: relative;
+
+	width: 100%;
+	height: 1000vh;
+
+	div.section-scene {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+
+		width: 100%;
+		height: 100vh;
+
+		z-index: 0;
+
+		overflow: hidden;
+
+		h1.step-callout {
+			position: relative;
+
+			width: 100%;
+			height: 100%;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
+
+			font-size: 100vh;
+
+			color: rgb(230 ,230 ,230);
+		}
+	}
+
+	div.section-container {
+		@include flexbox;
+
+		position: relative;
+
+		width: 100%;
+		height: 100vh;
+
+		&.landing {
+			z-index: 1;
+		}
+
+		&.section {
+			div.section-content {
+				position: relative;
+
+				width: 100%;
+				height: 100%;
+
+				div.section-background {
+					display: none;
+
+					position: absolute;
+					top: 0px;
+					left: 0px;
+
+					width: 100%;
+					height: 100%;
+
+					z-index: 0;
+
+					h1.step-callout {
+						position: relative;
+
+						width: 100%;
+						height: 100%;
+
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+						align-items: flex-start;
+
+						font-size: 100vh;
+
+						color: rgb(230 ,230 ,230);
+					}
+				}
+
+				div.content-container {
+					@include flexbox;
+
+					position: relative;
+
+					width: 100%;
+					height: 100%;
+
+					z-index: 1;
+
+					padding: 0px 100px;
+
+					h1 {
+						font-size: 58px;
+					}
+
+					p {
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+}
