@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @-webkit-keyframes page-links-fade-in {
   0% {
@@ -32,6 +33,27 @@ table, tr, td, th {
   padding: 10px 15px;
   border: 2px solid black;
   border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+}
+
+td:nth-child(2) {
+  text-align: left;
+}
+
+span {
+  display: block;
+  font-weight: 900;
+}
+span.check::before {
+  content: "✔";
+  color: green;
+}
+span.cross::before {
+  content: "✘";
+  color: red;
 }
 
 html, body, main {
@@ -122,6 +144,8 @@ div.sitemap-btn a img:hover {
 }
 div.sitemap-btn a:hover {
   color: gray;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 div.page-links {
@@ -214,6 +238,15 @@ main {
 main p {
   width: 50%;
 }
+main p a {
+  text-decoration: none;
+  color: rgb(78, 92, 250);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+main p a:hover {
+  color: rgb(168, 174, 253);
+}
 main h1 {
   position: relative;
   font-size: 58px;
@@ -232,6 +265,7 @@ main h1.big-number::after {
 }
 main div.background-content {
   position: fixed;
+  top: 40px;
   right: 0px;
   width: auto;
   height: 100%;

@@ -30,8 +30,38 @@ table, tr, td, th {
 	border-collapse: collapse;
 }
 
+td {
+	text-align: center;
+}
+
+td:nth-child(2) {
+	text-align: left;
+}
+
 table {
 
+}
+
+span {
+	display: block;
+
+	font-weight: 900;
+
+	&.check {
+		&::before {
+			content: "✔";
+
+			color: green;
+		}
+	}
+
+	&.cross {
+		&::before {
+			content: "✘";
+
+			color: red;
+		}
+	}
 }
 
 html, body, main {
@@ -128,6 +158,8 @@ div.sitemap-btn {
 
 		&:hover {
 			color: gray;
+
+			transform: scale(1.1);
 		}
 	}
 }
@@ -229,6 +261,18 @@ main {
 
 	p {
 		width: 50%;
+
+		a {
+			text-decoration: none;
+
+			color: rgb(78, 92, 250);
+
+			transition-duration: 0.5s;
+
+			&:hover {
+				color: rgb(168, 174, 253);
+			}
+		}
 	}
 
 	h1 {
@@ -260,6 +304,7 @@ main {
 
 	div.background-content {
 		position: fixed;
+		top: 40px;
 		right: 0px;
 
 		width: auto;
