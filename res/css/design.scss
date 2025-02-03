@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@keyframes page-links-fade-in {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -85,6 +95,25 @@ div.sitemap-btn {
 
 		text-decoration: none;
 
+		img {
+			position: relative;
+
+			top: 2px;
+
+			width: 54px;
+			height: 61px;
+
+			object-fit: cover;
+
+			transition-duration: 0.5s;
+
+			&:hover {
+				transform: scale(1.1);
+
+				filter: invert(0.5);
+			}
+		}
+
 		&:hover {
 			color: gray;
 		}
@@ -108,8 +137,14 @@ div.page-links {
 
 	backdrop-filter: blur(8px);
 
+	animation: page-links-fade-in 0.5s;
+
 	div.page-link {
+		position: relative;
+
 		width: 600px;
+
+		z-index: 1002;
 
 		a {
 			font-size: 64px;
@@ -137,7 +172,32 @@ div.page-links {
 		}
 	}
 
-	z-index: 1001;
+	z-index: 1002;
+}
+
+a.header-container-back-link {
+	position: absolute;
+	top: 24px;
+	right: 24px;
+
+	display: block;
+
+	width: 64px;
+	height: 64px;
+
+	font-size: 48px;
+
+	text-decoration: none;
+
+	color: black;
+
+	transition-duration: 0.5s;
+
+	z-index: 1003;
+
+	&:hover {
+		color: gray;
+	}
 }
 
 
@@ -146,6 +206,8 @@ h3.header-title {
 }
 
 main {
+	position: relative;
+
 	padding: 50px;
 
 	display: flex;
@@ -175,6 +237,32 @@ main {
 			height: 3px;
 
 			background-color: rgb(78, 92, 250);
+		}
+
+		&.big-number {
+			&::after {
+				display: none;
+			}
+		}
+	}
+
+	div.background-content {
+		position: fixed;
+		right: 0px;
+
+		width: auto;
+		height: 100%;
+
+		h1.big-number {
+			margin: 0px;
+
+			font-size: 100vh;
+
+			line-height: 100vh;
+
+			color: #f1f1f1;
+
+			user-select: none;
 		}
 	}
 }

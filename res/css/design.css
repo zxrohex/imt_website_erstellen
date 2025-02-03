@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@-webkit-keyframes page-links-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes page-links-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -82,6 +98,22 @@ div.sitemap-btn a {
   color: black;
   text-decoration: none;
 }
+div.sitemap-btn a img {
+  position: relative;
+  top: 2px;
+  width: 54px;
+  height: 61px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+div.sitemap-btn a img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: invert(0.5);
+          filter: invert(0.5);
+}
 div.sitemap-btn a:hover {
   color: gray;
 }
@@ -108,10 +140,14 @@ div.page-links {
   background-color: rgba(255, 255, 255, 0.7);
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
-  z-index: 1001;
+  -webkit-animation: page-links-fade-in 0.5s;
+          animation: page-links-fade-in 0.5s;
+  z-index: 1002;
 }
 div.page-links div.page-link {
+  position: relative;
   width: 600px;
+  z-index: 1002;
 }
 div.page-links div.page-link a {
   font-size: 64px;
@@ -130,11 +166,30 @@ div.page-links div.page-link.active a:hover {
   color: rgb(194, 199, 255);
 }
 
+a.header-container-back-link {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: block;
+  width: 64px;
+  height: 64px;
+  font-size: 48px;
+  text-decoration: none;
+  color: black;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  z-index: 1003;
+}
+a.header-container-back-link:hover {
+  color: gray;
+}
+
 h3.header-title {
   font-size: 22px;
 }
 
 main {
+  position: relative;
   padding: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -165,4 +220,23 @@ main h1::after {
   width: 50%;
   height: 3px;
   background-color: rgb(78, 92, 250);
+}
+main h1.big-number::after {
+  display: none;
+}
+main div.background-content {
+  position: fixed;
+  right: 0px;
+  width: auto;
+  height: 100%;
+}
+main div.background-content h1.big-number {
+  margin: 0px;
+  font-size: 100vh;
+  line-height: 100vh;
+  color: #f1f1f1;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
