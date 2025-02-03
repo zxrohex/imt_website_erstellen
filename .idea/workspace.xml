@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e53b5f0-263f-4c4d-a2db-684c95e31814" name="Changes" comment="Vollendung der vorletzten Aufgabe">
-      <change afterPath="$PROJECT_DIR$/pages/checkliste/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/checkliste/sitemap/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/entwerfen-planen-umsetzen/sitemap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/entwerfen-planen-umsetzen/sitemap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/kontrolle/sitemap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/kontrolle/sitemap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/konzeption-design/sitemap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/konzeption-design/sitemap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/konzeption-inhalte/sitemap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/konzeption-inhalte/sitemap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/live-stellen/sitemap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/live-stellen/sitemap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/promoten/sitemap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/promoten/sitemap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/umsetzung-css/sitemap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/umsetzung-css/sitemap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/umsetzung-html/sitemap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/umsetzung-html/sitemap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/zielsetzung/sitemap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/zielsetzung/sitemap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/checkliste/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/checkliste/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/checkliste/sitemap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/checkliste/sitemap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/css/design.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/design.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/css/design.scss" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/design.scss" afterDir="false" />
     </list>
@@ -42,12 +33,12 @@
     &quot;assignee&quot;: &quot;zxrohex&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/zxrohex/imt_website_erstellen.git&quot;,
-    &quot;accountId&quot;: &quot;1df9919d-fb00-40df-a3e7-535e6adb2a36&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/zxrohex/imt_website_erstellen.git",
+    "accountId": "7dc40eb6-27fe-43a6-a425-d20df6fa54ee"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -59,24 +50,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main-task-mehrere-seiten",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/conta/WebstormProjects/imt_website_erstellen/pages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main-task-mehrere-seiten&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/conta/WebstormProjects/imt_website_erstellen/pages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\conta\WebstormProjects\imt_website_erstellen\pages" />
@@ -108,6 +99,7 @@
       <workItem from="1738567126327" duration="1307000" />
       <workItem from="1738571010032" duration="1397000" />
       <workItem from="1738573102067" duration="2614000" />
+      <workItem from="1738597631823" duration="386000" />
     </task>
     <task id="LOCAL-00001" summary="Basisstruktur und Design der Aufgabe fertiggestellt.">
       <option name="closed" value="true" />

@@ -23,7 +23,11 @@ p, span, a, label, input, button, select, option, ul, ol, li, tr, td, th {
 }
 
 table, tr, td, th {
-	padding: 5px;
+	padding: 10px 15px;
+
+	border: 2px solid black;
+
+	border-collapse: collapse;
 }
 
 table {
@@ -260,6 +264,8 @@ main {
 
 		width: auto;
 		height: 100%;
+
+		z-index: -1;
 
 		h1.big-number {
 			margin: 0px;
