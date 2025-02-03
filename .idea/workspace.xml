@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e53b5f0-263f-4c4d-a2db-684c95e31814" name="Changes" comment="&quot;Individuelle&quot; Sitemap zu allen Pages hinzugefügt (für Background-Blur-Effekt), weitere Änderungen">
-      <change afterPath="$PROJECT_DIR$/res/imgs/bars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imgs/bars2.png" afterDir="false" />
+    <list default="true" id="2e53b5f0-263f-4c4d-a2db-684c95e31814" name="Changes" comment="Polishing und Optimisierung für Endabgabe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/entwerfen-planen-umsetzen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/entwerfen-planen-umsetzen/index.html" afterDir="false" />
@@ -28,8 +26,6 @@
       <change beforePath="$PROJECT_DIR$/pages/umsetzung-html/sitemap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/umsetzung-html/sitemap/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/zielsetzung/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/zielsetzung/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/zielsetzung/sitemap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/zielsetzung/sitemap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/design.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/design.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +113,7 @@
       <workItem from="1738318850905" duration="4817000" />
       <workItem from="1738567126327" duration="1307000" />
       <workItem from="1738571010032" duration="1397000" />
-      <workItem from="1738573102067" duration="1518000" />
+      <workItem from="1738573102067" duration="1903000" />
     </task>
     <task id="LOCAL-00001" summary="Basisstruktur und Design der Aufgabe fertiggestellt.">
       <option name="closed" value="true" />
@@ -135,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738571184997</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Polishing und Optimisierung für Endabgabe">
+      <option name="closed" value="true" />
+      <created>1738574684152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738574684152</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +159,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basisstruktur und Design der Aufgabe fertiggestellt." />
     <MESSAGE value="&quot;Individuelle&quot; Sitemap zu allen Pages hinzugefügt (für Background-Blur-Effekt), weitere Änderungen" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Individuelle&quot; Sitemap zu allen Pages hinzugefügt (für Background-Blur-Effekt), weitere Änderungen" />
+    <MESSAGE value="Polishing und Optimisierung für Endabgabe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polishing und Optimisierung für Endabgabe" />
   </component>
 </project>
