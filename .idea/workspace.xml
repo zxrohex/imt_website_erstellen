@@ -4,22 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e53b5f0-263f-4c4d-a2db-684c95e31814" name="Changes" comment="Mehr Animationen hinzugefügt">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/entwerfen-planen-umsetzen/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/kontrolle/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/konzeption-design/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/konzeption-inhalte/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/live-stellen/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/promoten/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/umsetzung-css/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/umsetzung-html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/zielsetzung/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/style.scss" afterDir="false" />
+    <list default="true" id="2e53b5f0-263f-4c4d-a2db-684c95e31814" name="Changes" comment="Basisstruktur und Design der Aufgabe fertiggestellt.">
+      <change afterPath="$PROJECT_DIR$/pages/entwerfen-planen-umsetzen/sitemap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/kontrolle/sitemap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/konzeption-design/sitemap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/konzeption-inhalte/sitemap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/live-stellen/sitemap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/promoten/sitemap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/umsetzung-css/sitemap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/umsetzung-html/sitemap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/zielsetzung/sitemap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/entwerfen-planen-umsetzen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/entwerfen-planen-umsetzen/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/kontrolle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/kontrolle/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/konzeption-design/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/konzeption-design/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/konzeption-inhalte/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/konzeption-inhalte/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/live-stellen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/live-stellen/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/promoten/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/promoten/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/umsetzung-css/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/umsetzung-css/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/umsetzung-html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/umsetzung-html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/zielsetzung/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/zielsetzung/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,21 +44,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "zxrohex"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zxrohex&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/zxrohex/imt_website_erstellen.git&quot;,
     &quot;accountId&quot;: &quot;1df9919d-fb00-40df-a3e7-535e6adb2a36&quot;
   }
 }</component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2sOFjL6oajpVVCvJhE1UyXY3wWy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -68,7 +76,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main-task-mehrere-seiten",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/conta/WebstormProjects/imt_website_erstellen/pages",
+    "last_opened_file_path": "C:/Users/conta/WebstormProjects/imt_website_erstellen/pages/zielsetzung/sitemap",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,8 +87,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\conta\WebstormProjects\imt_website_erstellen\pages" />
-      <recent name="C:\Users\conta\WebstormProjects\imt_website_erstellen" />
+      <recent name="C:\Users\conta\WebstormProjects\imt_website_erstellen\pages\zielsetzung\sitemap" />
+      <recent name="C:\Users\conta\WebstormProjects\imt_website_erstellen\pages\umsetzung-html\sitemap" />
+      <recent name="C:\Users\conta\WebstormProjects\imt_website_erstellen\pages\umsetzung-css\sitemap" />
+      <recent name="C:\Users\conta\WebstormProjects\imt_website_erstellen\pages\promoten\sitemap" />
+      <recent name="C:\Users\conta\WebstormProjects\imt_website_erstellen\pages\live-stellen\sitemap" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\conta\WebstormProjects\imt_website_erstellen\pages" />
@@ -101,8 +112,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738318850905</updated>
-      <workItem from="1738318850905" duration="4516000" />
+      <workItem from="1738318850905" duration="4817000" />
+      <workItem from="1738567126327" duration="1307000" />
     </task>
+    <task id="LOCAL-00001" summary="Basisstruktur und Design der Aufgabe fertiggestellt.">
+      <option name="closed" value="true" />
+      <created>1738323486020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738323486020</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,5 +139,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basisstruktur und Design der Aufgabe fertiggestellt." />
+    <option name="LAST_COMMIT_MESSAGE" value="Basisstruktur und Design der Aufgabe fertiggestellt." />
   </component>
 </project>
