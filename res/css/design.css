@@ -24,8 +24,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Inter", serif;
 }
 
-p, span, a, label, input, button, select, option, ul, ol, li {
+p, span, a, label, input, button, select, option, ul, ol, li, tr, td, th {
   font-family: "Inter", serif;
+}
+
+table, tr, td, th {
+  padding: 5px;
 }
 
 html, body, main {
@@ -150,7 +154,7 @@ div.page-links div.page-link {
   z-index: 1002;
 }
 div.page-links div.page-link a {
-  font-size: 64px;
+  font-size: 54px;
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
   color: black;
